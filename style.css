@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Modificación del header */
+header {
+    padding: 10px;
+    background-color: #444;
+    text-align: center;
+    text-shadow: 5px 4px 6px #fff;
+}
+
+body {
+    background: #000 !important;
+}
+main {
+    background-color: #000;
+    height: 160vh;
+}
+
+/* Estilo de los botones */
+.boton__p1, .boton__p2, .boton__p3, .boton__p4 {
+    background: linear-gradient(to bottom, transparent, #222) !important;
+    border-radius: 40% !important;
+    color: #fff !important;
+    box-shadow: 3px 5px 10px #1c7;
+    height: 120px;
+    width: 150px;
+    margin: 50px !important;
+}
+/* Interacción de los botones */
+.boton__p1:hover {
+    color:#000 !important;
+    transition: all 0.5s;
+    height: 120px;
+    width: 210px;
+    font-size: 40px;
+    text-shadow: 2px 5px 4px;
+    background: linear-gradient(to bottom, #fff, rgb(6, 57, 168) )!important;
+}
+.boton__p2:hover{
+    color:#000 !important;
+    transition: all 0.4s;
+    height: 120px;
+    width: 210px;
+    font-size: 40px;
+    text-shadow: 2px 5px 4px;
+    background: linear-gradient(to bottom, #fff, rgb(152, 207, 50)) !important;
+}
+.boton__p3:hover {
+    color:#000 !important;
+    transition: all 0.4s;
+    height: 120px;
+    width: 210px;
+    font-size: 40px;
+    text-shadow: 2px 5px 4px;
+    background: linear-gradient(to bottom, #fff, rgb(36, 192, 36)) !important;
+}
+
+.boton__p4:hover {
+    color:#000 !important;
+    transition: all 0.4s;
+    height: 120px;
+    width: 210px;
+    font-size: 40px;
+    text-shadow: 2px 5px 4px;
+    background: linear-gradient(to bottom, #fff, rgb(238, 81, 33)) !important;
+}
+
+/* Modificación de los DIVS */
+.container {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flex__container {
+    display: flex !important;
+    align-items: center !important;    
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    background-color: #444;
+    height: 300px !important;
+
+    
+}
+
+.span__resul {
+        border-radius: 10px !important;
+        box-shadow: 2px 5px 8px #000;
+        margin-right: 10px;
+        font-size: 20px !important;
+        background: linear-gradient(to bottom, transparent, #222) !important;
+        color: #fff !important;
+    }
+
+
+.container__boton {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+}
+.container__footer {
+    margin-left: 550px !important;
+}
+
+/* MODIFICACIÓN FORMULARIO E INPUTS */
+.form {
+    min-width: 400px;
+    flex: 2;
+    text-align: center;
+    padding: 50px;
+}
+
+.form__input {
+    width: 100% !important;
+    padding: 7px !important;
+    margin: 6px 0;
+    border: none !important;
+    border-bottom: 3px solid #1c7 !important;
+    background: transparent !important; 
+    outline: none !important;
+    color: white !important;
+}
+
+.form__input:focus {
+    background: linear-gradient(to bottom, transparent, #222) !important;
+    outline: none !important;
+    border-bottom: 3px solid #5f9 !important;
+}
+
+.form__inp {
+    border-radius: 20px !important;
+    background: linear-gradient(to bottom, transparent, #222) !important;
+    color: #fff !important;
+}
+
+/* COPY RIGHT */
+.span__sp {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* .span__input {
+    border-radius: 10px !important;
+    box-shadow: 2px 5px 5px #000;
+    margin: 50px 30px;
+    width: 50%;
+}
+.span__input2 {
+    border-radius: 10px !important;
+    box-shadow: 2px 5px 5px #000;
+    margin: 50px 30px;
+    width: 50%;
+} */
