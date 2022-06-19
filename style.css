@@ -16,15 +16,16 @@ body {
 }
 main {
     background-color: #000;
-    height: 160vh;
+    height: 100%vh;
 }
+
 
 /* Estilo de los botones */
 .boton__p1, .boton__p2, .boton__p3, .boton__p4 {
     background: linear-gradient(to bottom, transparent, #222) !important;
     border-radius: 40% !important;
     color: #fff !important;
-    box-shadow: 3px 5px 10px #1c7;
+    box-shadow: 3px 5px 0.5px #1c7 !important;
     height: 120px;
     width: 150px;
     margin: 50px !important;
@@ -38,6 +39,7 @@ main {
     font-size: 40px;
     text-shadow: 2px 5px 4px;
     background: linear-gradient(to bottom, #fff, rgb(6, 57, 168) )!important;
+    box-shadow: 3px 5px 10px 0.5px #1c7 !important;
 }
 .boton__p2:hover{
     color:#000 !important;
@@ -47,6 +49,7 @@ main {
     font-size: 40px;
     text-shadow: 2px 5px 4px;
     background: linear-gradient(to bottom, #fff, rgb(152, 207, 50)) !important;
+    box-shadow: 3px 5px 10px 0.5px #1c7 !important;
 }
 .boton__p3:hover {
     color:#000 !important;
@@ -56,6 +59,7 @@ main {
     font-size: 40px;
     text-shadow: 2px 5px 4px;
     background: linear-gradient(to bottom, #fff, rgb(36, 192, 36)) !important;
+    box-shadow: 3px 5px 10px 0.5px #1c7 !important;
 }
 
 .boton__p4:hover {
@@ -64,8 +68,9 @@ main {
     height: 120px;
     width: 210px;
     font-size: 40px;
-    text-shadow: 2px 5px 4px;
+    text-shadow: 2px 5px 4px ;
     background: linear-gradient(to bottom, #fff, rgb(238, 81, 33)) !important;
+    box-shadow: 3px 5px 10px 0.5px #1c7 !important;
 }
 
 /* Modificación de los DIVS */
@@ -97,15 +102,12 @@ main {
 
 
 .container__boton {
-    margin-top: 50px;
     display: flex;
     justify-content: center !important;
     align-items: center !important;
     flex-wrap: wrap !important;
 }
-.container__footer {
-    margin-left: 550px !important;
-}
+
 
 /* MODIFICACIÓN FORMULARIO E INPUTS */
 .form {
